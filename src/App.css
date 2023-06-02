@@ -1,0 +1,115 @@
+
+
+body{
+  background-color: whitesmoke;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.App {
+  width: 100%;
+  min-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: flex-start;
+  background: #20002c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-style: solid;
+  border-color:#0d4714;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  max-height: 800px;
+  box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);box-shadow: gray 1px;
+}
+
+.header{
+  padding-top: 2px;
+  padding-bottom: 2px;
+ 
+  width: 100%;
+}
+
+h1{
+  font-size: 30px;
+  color: rgb(255,255,255);
+  color: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(250,233,233,1) 99%, rgba(233,148,148,0.8463760504201681) 100%);
+  width: 100%;
+}
+.todolist{
+  margin: 0;
+}
+ul{
+  width: 100%;
+  margin-left: -40px;
+  list-style: none;
+  overflow-y: auto;
+}
+
+li{
+  width: 500px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  gap: 1px;
+  align-items: center;
+  word-wrap: break-word;
+  overflow-wrap:break-word;
+  border-style:solid; font-size:13; padding:13px; border-width:5px; border-radius:13px; border-color:#0d4714; box-shadow: -5px 6px 10px 0px rgba(42,42,42,.75); font-weight:bold; font-family:cursive;  
+ 
+}
+.list:nth-child(odd) {
+  /* background: rgb(2,0,36); */
+  border-radius: 13px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,49,144,1) 0%, rgba(0,212,255,1) 100%);
+}
+.list:nth-child(even) {
+  /* background: rgb(144,49,49); */
+background: linear-gradient(90deg, rgba(144,49,49,1) 59%, rgba(255,0,121,1) 100%);
+border-radius: 13px;
+}
+.text{
+  word-wrap: break-word;
+  overflow: hidden;
+  word-break: break-all;
+}
+.input{
+  margin: auto;
+ 
+}
+input { border-style:solid; font-size:13; padding:13px; border-width:5px; border-radius:13px; border-color:#0d4714; background-color:#e8ebeb; box-shadow: -5px 6px 10px 0px rgba(42,42,42,.75); font-weight:bold; font-family:cursive;  }
+.css-input:focus { outline:none; 
+  position: fixed ;
+} 
+button{ border-style:solid; font-size:23; padding:12px; border-width:5px; border-radius:13px; border-color:#0d4714; background-color:#e8ebeb; box-shadow: -5px 6px 10px 0px rgba(42,42,42,.75); font-weight:bold; font-family:cursive;  }
+li, .text, p{
+  font-size: 20px;
+}
+.delete{
+  border-style:solid; font-size:8; padding:8px; border-width:2px; border-radius:8px; border-color:#0d4714; background-color:#e8ebeb; box-shadow: -5px 6px 10px 0px rgba(42,42,42,.75); font-weight:bold; font-family:cursive; 
+}
+.edit{
+  border-style:solid; font-size:8; padding:8px; border-width:2px; border-radius:8px; border-color:#0d4714; background-color:#e8ebeb; box-shadow: -5px 6px 10px 0px rgba(42,42,42,.75); font-weight:bold; font-family:cursive; 
+}
+main{
+ 
+  max-height: 100vh;
+  overflow: hidden;
+  margin: 10px;
+  
+}
+.todolist{
+  max-height: 650px;
+  overflow-y: auto;
+  
+  
+
+}
